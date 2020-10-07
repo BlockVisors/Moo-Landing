@@ -5,7 +5,10 @@
   "scripts": {
     "dev": "next",
     "export": "next export",
-    "build": "next build"
+    "build": "next build",
+    "build-static": "next build && next export && npm run build-static-repair-index",
+    "build-static-repair-index": "replace-in-files --string \"/_next/static\" --replacement \"./_next/static\" out/index.html"
+
   },
   "dependencies": {
     "@zeit/next-sass": "^1.0.1",
