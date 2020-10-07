@@ -1,5 +1,5 @@
 import React from 'react'
-import { MemberData } from '../../../../database/layouts/app/database'
+import { MemberData } from '../../../../database/layouts/app/mooDB'
 import {Container,Row,Col} from 'reactstrap'
 const Member = () => (
     <section className="app2 team-section p-t-0">
@@ -7,10 +7,10 @@ const Member = () => (
             <Row>
                 <Col md="10"  className="offset-md-1">
                     <div className="title title2">
-                        <img alt="" className="img-fluid title-img" src="/assets/images/logo/2.png" />
-                        <h6 className="font-primary borders main-text"><span>our team</span></h6>
+                        <img alt="" className="img-fluid title-img" src="/assets/images/logo/MooIconColor.png" />
+                        <h6 className="font-primary borders main-text"><span> Team</span></h6>
                         <div className="sub-title">
-                            <h2 className="title-text text-capitalize text-center">our team member</h2>
+                            <h2 className="title-text text-capitalize text-center">Meet The MOO team</h2>
                         </div>
                     </div>
                 </Col>

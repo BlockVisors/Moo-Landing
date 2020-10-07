@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import Link from 'next/link'
 import { MENUITEMS } from '../../constant/menu';
-import {Container,Row,Button} from 'reactstrap'
+import {Container,Row,Button, NavItem} from 'reactstrap'
 const Nav = () => {
     const [mainmenu, setMainMenu] = useState(MENUITEMS);
     const [sidebar, setSidebar] = useState(false);
@@ -149,9 +149,10 @@ const Nav = () => {
                                                             )
                                                         })
                                                     }
-                                                   {/* <Button>
+                                                    
+                                                    <Button>
                                                        test
-                                                   </Button> */}
+                                                   </Button> 
                                                 </Row>
                                                
                                             </Container>
@@ -182,6 +183,7 @@ const Nav = () => {
                                                                     <Link href={`${childrenSubItem.path}`} >
                                                                         <a className="sub-menu-title">{childrenSubItem.title}</a>
                                                                     </Link>
+                                                                   
                                                                     : ''}
                                                             </li>
                                                         )}
@@ -195,6 +197,9 @@ const Nav = () => {
                         )
                     })
                 }
+                <li>
+                    dddd
+                </li>
             </ul>
             <ul className="main-menu">
                 {
@@ -221,7 +226,7 @@ const Nav = () => {
                                         {menuItem.children ?
                                             <i className="fa fa-angle-right pull-right"></i> : ''}
                                     </Link>
-                                    
+                                
                                     : ''}
 
                                 {/* MEGHA MENU */}

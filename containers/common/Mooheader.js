@@ -48,13 +48,14 @@ const Header = props => {
                             </div>
 
                             <MooNav />
-
-                            <Button className="top-buttons">
+                            {/* <Button className="top-buttons">
                                 Moo App
                             </Button>
                             <Button className="top-buttons">
                                 Moo Market
-                            </Button>
+                            </Button> */}
+
+                           
                             {props.shop &&
                                 <div className="top-header-right">
                                     <ul>

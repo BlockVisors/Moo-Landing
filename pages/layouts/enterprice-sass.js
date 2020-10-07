@@ -1,8 +1,10 @@
 import React, { useEffect } from 'react'
 import Head from 'next/head'
 // import Custom Components
-import Header from '../../containers/common/header'
+//import Header from '../../containers/common/header'
 import MooHeader from '../../containers/common/Mooheader'
+
+
 
 import BannerSection from '../layouts/sections/enterprice-sass/banner'
 import FeatureSection from '../layouts/sections/enterprice-sass/feature'
@@ -10,7 +12,7 @@ import BusinessSection from '../layouts/sections/enterprice-sass/business'
 import ServiceSection from '../layouts/sections/enterprice-sass/service'
 import SliderSection from '../layouts/sections/enterprice-sass/slider'
 import PricingSection from '../layouts/sections/enterprice-sass/pricing'
-import TestimonialSection from '../layouts/sections/enterprice-sass/testimonial'
+//import TestimonialSection from '../layouts/sections/enterprice-sass/testimonial'
 import BrandSection from '../layouts/sections/enterprice-sass/brand'
 import FooterSection from '../layouts/sections/enterprice-sass/footer'
 //import Footer2 from '../containers/common/footer'
@@ -38,6 +40,7 @@ const EnterpriceSass = () => {
 
             <FeatureSection />
 
+
             <BusinessSection />
 
             <ServiceSection />
@@ -51,7 +54,7 @@ const EnterpriceSass = () => {
             <BrandSection />
 
             <FooterSection />
-            <Footer2 />
+            {/* <Footer2 /> */}
 
         </div>
     )

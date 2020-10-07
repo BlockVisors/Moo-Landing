@@ -38,14 +38,12 @@ const Brand = () => (
                     <Col md="10" className="offset-md-1">
                         <div className="title">
                             <div className="main-title">
-                                <h2>trusted us</h2>
+                                <h2>Real Community Driven Project</h2>
                             </div>
                             <div className="sub-title">
-                                <p className="sub-title-para">We believe we have created the most efficient SaaS landing page
-                                for
-                                your users.
-                                Landing page with features that will convince you to use it for your SaaS business.</p>
-                            </div>
+                                <p className="sub-title-para">We believe that the community of MOO token holders should drive the project.
+                                No Rug pulls and <span>all Team tokens distributed to early buyers and liquidity providers. </span>                           </p>                
+                             </div>
                         </div>
                     </Col>
                     <Col xs="12">

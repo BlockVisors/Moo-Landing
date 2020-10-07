@@ -18,15 +18,14 @@ const Business = () => (
                                     <p className="offer-sub-text text-white">You can stake your meme tokens and farm reward points. Points are earned every day based on how many meme you stake. When you earn enough points, you can redeem them for a collectable NFT Meme Card.
                                      Collect them for yourself or sell them to others on Open Sea. It’s up to you.
                                     </p>
-                                </div>
-
-                                <Row>
-                                <div>
-                                    <Button>
+                                    <div className="d-flex">
+                                    <Button id="nft-button">
                                         Start Farming
                                     </Button>
+                                    </div>
                                 </div>
-                                </Row>
+
+                               
                             </div>
                         </div>
                         <div className="offers-content">
@@ -37,14 +36,11 @@ const Business = () => (
                                     <p className="offer-sub-text text-white">Non‑fungible tokens (NFTs) are a special type of token on the Ethereum network that are used to create verifiable digital scarcity. That means your collectable Meme Cards are limited and digitally scarce. 
                                     If you feel that they have value, you might want to sell them on Open Sea to other people.
                                     industry.</p>
-                                </div>
-                                <Row>
-                                <div>
-                                    <Button>
+                                    <Button id="nft-button">
                                        Trade NFTs on OpenSea
                                     </Button>
+
                                 </div>
-                                </Row>
                             </div>
                         </div>
                        

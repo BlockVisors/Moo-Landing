@@ -45,16 +45,22 @@ const Header = props => {
                                 <a className="toggle-nav" onClick={clickSidebar} >
                                     <i aria-hidden="true" className="fa fa-bars text-white"></i>
                                 </a>
-                            </div>
-
-                            <Nav />
-
-                            <Button className="top-buttons">
+                                {/* <Button className="top-buttons">
                                 Moo App
                             </Button>
                             <Button className="top-buttons">
                                 Moo Market
+                            </Button> */}
+                            </div>
+                        
+                            <Nav />
+
+                            {/* <Button className="top-buttons">
+                                Moo App
                             </Button>
+                            <Button className="top-buttons">
+                                Moo Market
+                            </Button> */}
                             {props.shop &&
                                 <div className="top-header-right">
                                     <ul>

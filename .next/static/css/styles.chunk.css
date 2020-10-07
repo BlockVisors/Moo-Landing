@@ -22099,6 +22099,32 @@ footer.saas1 h5 {
   height: 30px;
   width: 88px; }
 
+#nft-button {
+  margin-top: 20px; }
+
+#banner-btn {
+  margin-right: 16px;
+  margin-bottom: 10px; }
+
+#banner {
+  margin-top: 40px;
+  margin-bottom: 60px; }
+
+#sale-title {
+  font-size: 48px;
+  font-family: Poppins; }
+
+#sale-count {
+  font-family: Poppins;
+  font-size: 12px; }
+
+.time-digits {
+  font-family: Poppins; }
+
+#ftr-logo {
+  height: 60px;
+  width: 180px; }
+
 /**=====================
      63. Responsive CSS Start
   ==========================**/

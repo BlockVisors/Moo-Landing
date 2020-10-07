@@ -1,4 +1,4 @@
-import Document, { Head, Main, NextScript } from 'next/document'
+import Document, { DocumentContext, DocumentProps, Head, Main, NextScript, Html } from 'next/document';
 
 const BaseCSS = ({ css }) =>
   <style

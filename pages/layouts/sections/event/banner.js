@@ -12,17 +12,17 @@ const Banner = ({router}) => {
     return(
     <section className="event header" id="home">
         <div className="header3 bg">
-            <div className="event-content">
+            <div className="event-content" id="sale-title">
                 <Container>
                     <Row>
                         <Col xl="6" md="10" className="offset-xl-3 offset-md-1">
                             <div className="center-text">
                                 <div className="text-center w-100">
                                     <div className="h1-margin">
-                                        <h1>come <span className="typed">
+                                        <h1 id="sale-title">MOO Finance Pre-Sale <span className="typed">
                                             <Typed
-                                                strings={['Unice']}
-                                                typeSpeed={80}
+                                                strings={['']}
+                                                typeSpeed={20}
                                                 backSpeed={50}
                                                 showCursor={false}
                                                 loop >
@@ -37,15 +37,15 @@ const Banner = ({router}) => {
                                     </div>
                                     <h4 className="text-white">
                                         <i className="fa fa-map-marker m-r-10 text-white"></i>
-                                        Zexson Pro, New York, NY 254
+                                        Worldwide
                                     </h4>
                                     <h5 className="header-sub-text text-white">
                                         <i className="fa fa-calendar m-r-10"></i>
-                                        01-04 March 2019
+                                        01-10 October 2020
                                     </h5>
                                     <div className="text-center link-horizontal">
                                         <a className=" btn btn-default back-white text-uppercase border-not" href="#">
-                                            view event details
+                                            Go to Sale
                                         </a>
                                     </div>
                                 </div>

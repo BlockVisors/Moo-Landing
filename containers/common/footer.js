@@ -7,7 +7,7 @@ const Footer = () => (
                 <Row>
                     <Col xs="12">
                         <div className="link link-horizontal  text-center mb-3">
-                            <img alt="" className="img-fluid" src="/assets/images/logo/MooBlack.png" />
+                            <img id="ftr-logo" alt="" className="img-fluid" src="/assets/images/logo/MooBlack.png" />
                         </div>
                     </Col>
                     <Col xs="12">
@@ -48,13 +48,13 @@ const Footer = () => (
                                         </a>
                                     </li>
                                     <li className="footer-social-list">
-                                    <a href="#"><i aria-hidden="true" className="fa fa-facebook"></i></a>
+                                    <a href="#"><i aria-hidden="true" className="fa fa-github"></i></a>
                                 </li>
                                 <li className="footer-social-list">
-                                    <a href="#"><i aria-hidden="true" className="fa fa-twitter"></i></a>
+                                    <a href="#"><i aria-hidden="true" className="fa fa-medium"></i></a>
                                 </li>
                                 <li className="footer-social-list">
-                                    <a href="#"><i aria-hidden="true" className="fa fa-google"></i></a>
+                                <a href="#"><i class="fa fa-telegram" aria-hidden="true"></i></a>
                                 </li>
                                 </ul>
                             </div>

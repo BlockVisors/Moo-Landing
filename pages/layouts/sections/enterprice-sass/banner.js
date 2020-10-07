@@ -11,26 +11,25 @@ const Banner = () => {
                 <Container>
                     <Row>
                         <Col lg="6">
-                            <div className="center-text">
+                            <div id="banner" className="center-text">
                                 <div>
                                     <div className="header-text">
                                         <h1>MOO Finance</h1>
                                     </div>
                                     <div className="header-sub-text">
                                         <h3 className="saas2-sub-text">Trade, hodl or 
- <span className="bold-text"> farm your MOO and earn more!</span>
+                                        <span className="bold-text"> farm your MOO and earn more!</span>
                                         </h3>
                                     </div>
                                     <div className="header-sub-text">
                                         <p className="sub-para text-white">MOO Finance is a community-driven project where you, the 'MOO Farmers' will create your own Farm. </p>
-                                        
-
                                     </div>
-                                    <a className="btn btn-default primary-btn transparent">Public Sale</a>
-                                    <a className="btn btn-default primary-btn transparent">LightPaper</a>
-                                    <a className="btn btn-default primary-btn transparent">Staking</a>
-                                    <a className="btn btn-default primary-btn transparent">Moo MarketPlace</a>
-
+                                    <div>
+                                    <a id="banner-btn" className="btn btn-default primary-btn transparent">Public Sale</a>
+                                    <a id="banner-btn" className="btn btn-default primary-btn transparent">LightPaper</a>
+                                    <a id="banner-btn" className="btn btn-default primary-btn transparent">Staking</a>
+                                    <a id="banner-btn" className="btn btn-default primary-btn transparent">Moo MarketPlace</a>
+                                    </div>
                                 </div>
                             </div>
                         </Col>

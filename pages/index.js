@@ -4,6 +4,16 @@ import Head from 'next/head'
 //import Header from ./../containers/common/header'
 import MooHeader from './../containers/common/Mooheader'
 
+// import Custom Components
+import SaleCountdown from './elements/count-down'
+import CountDownSection from './layouts/sections/event/banner'
+
+
+import Team from './layouts/sections/app/member'
+import AboutSection from './layouts/sections/event/about'
+
+import ScheduleSection from './layouts/sections/event/schedule'
+
 import BannerSection from './layouts/sections/enterprice-sass/banner'
 import FeatureSection from './layouts/sections/enterprice-sass/feature'
 import BusinessSection from './layouts/sections/enterprice-sass/business'
@@ -36,7 +46,10 @@ const EnterpriceSass = () => {
 
             <BannerSection />
 
+             {/* <SaleCountdown /> */}
             <FeatureSection />
+            <CountDownSection />
+            <AboutSection />
 
             <BusinessSection />
 
@@ -44,10 +57,11 @@ const EnterpriceSass = () => {
 
             <SliderSection />
 
+            <Team />
             <PricingSection />
 
             {/* <TestimonialSection /> */}
-
+            <ScheduleSection />
             <BrandSection />
 
             {/* <FooterSection /> */}

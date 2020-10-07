@@ -264,14 +264,14 @@ const Nav = () => {
                                                             )
                                                         })
                                                     }
-                                                       <div className="">
+                                                       {/* <div className="">
                                    <Button>Moo App</Button>
                                     <a className="purchase-btn" href="https://themeforest.net/user/pixelstrap/portfolio"></a>
                                 </div>
                                 <div className="">
                                    <Button>Moo Market</Button>
                                     <a className="purchase-btn" href="https://themeforest.net/user/pixelstrap/portfolio"></a>
-                                </div>
+                                </div> */}
                                                 </Row>
                                             </Container>
                                             : ''}

@@ -18,6 +18,7 @@ module.exports = withImages(withSass(withCss({
           }
           return config
         },
+        dataDir: 'build',
         cssLoaderOptions: {
           url: false
         }

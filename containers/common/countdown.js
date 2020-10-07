@@ -17,12 +17,12 @@ const CountdownComponent = (props) => {
             return <Completionist />;
         } else {
             // Render a countdown
-            return <div className="countdown">
+            return <div  className="countdown">
                 <ul>
                     <li>
                         <div className="event-counter">
                             <h2>
-                                <span id="days" className="time digits">{days}</span><span
+                                <span id="days" className="time-digits">{days}</span><span id="sale-count" 
                                     className="title">days</span>
                             </h2>
                             <div className="set-border-left"></div>
@@ -32,7 +32,7 @@ const CountdownComponent = (props) => {
                     <li>
                         <div className="event-counter">
                             <h2>
-                                <span id="hours" className="time digits">{hours}</span><span
+                                <span id="hours" className="time-digits">{hours}</span><span id="sale-count" 
                                     className="title">hours</span>
                             </h2>
                             <div className="set-border-left"></div>
@@ -42,7 +42,7 @@ const CountdownComponent = (props) => {
                     <li>
                         <div className="event-counter">
                              <h2>
-                                <span id="minutes" className="time digits">{minutes}</span><span
+                                <span id="minutes" className="time-digits">{minutes}</span><span id="sale-count" 
                                     className="title">minutes</span>
                             </h2>
                             <div className="set-border-left"></div>
@@ -52,7 +52,7 @@ const CountdownComponent = (props) => {
                     <li>
                         <div className="event-counter">
                             <h2>
-                                <span id="seconds" className="time digits">{seconds}</span><span
+                                <span id="seconds" className="time-digits">{seconds}</span><span id="sale-count" 
                                     className="title">seconds</span>
                             </h2>
                             <div className="set-border-left"></div>
@@ -68,7 +68,7 @@ const CountdownComponent = (props) => {
     var year = d.getFullYear();
     var month = d.getMonth();
     var day = d.getDate();
-    var coundown = new Date(year, month, day + 10).getTime();
+    var coundown = new Date(year, month, day + 5).getTime();
 
     return (
         <Fragment>
