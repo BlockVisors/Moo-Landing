@@ -4,10 +4,9 @@
   "private": true,
   "scripts": {
     "dev": "next",
-    "export": "next export",
     "build": "next build",
-    "build-static": "next build && next export && npm run build-static-repair-index",
-    "build-static-repair-index": "replace-in-files --string \"/_next/static\" --replacement \"./_next/static\" out/index.html"
+    "postbuild": "next-on-netlify"
+
   },
   "dependencies": {
     "@zeit/next-sass": "^1.0.1",
@@ -21,6 +20,7 @@
     "graphql-react": "^11.0.2",
     "next": "9.5.3",
     "next-images": "^1.2.0",
+    "next-on-netlify": "^2.5.1",
     "next-redux-wrapper": "^4.0.1",
     "node": "^10.17.0",
     "nprogress": "^0.2.0",

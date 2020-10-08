@@ -20,5 +20,7 @@ module.exports = withImages(withSass(withCss({
         },
         cssLoaderOptions: {
           url: false
-        }
+        },
+        target: "serverless",
+        
       })))
