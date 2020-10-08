@@ -8,7 +8,6 @@
     "build": "next build",
     "build-static": "next build && next export && npm run build-static-repair-index",
     "build-static-repair-index": "replace-in-files --string \"/_next/static\" --replacement \"./_next/static\" out/index.html"
-
   },
   "dependencies": {
     "@zeit/next-sass": "^1.0.1",
@@ -47,7 +46,7 @@
     "redux-devtools-extension": "^2.13.8",
     "redux-logger": "^3.0.6",
     "redux-thunk": "^2.3.0",
-    "sass": "^1.26.8",
+    "sass": "^1.27.0",
     "vercel": "^20.1.0"
   },
   "devDependencies": {

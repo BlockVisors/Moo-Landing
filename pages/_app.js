@@ -7,8 +7,8 @@ import { ToastContainer } from 'react-toastify';
 
 import 'bootstrap-scss';
 import '../public/assets/scss/flaticon.scss';
-import '../public/assets/scss/theme/_style.scss';
-import '../public/assets/scss/theme/_nav.scss';
+// import '../public/assets/scss/theme/_style.scss';
+// import '../public/assets/scss/theme/_nav.scss';
 
 import '../public/assets/scss/font-awesome.scss';
 import "../public/assets/scss/color-1.scss"
