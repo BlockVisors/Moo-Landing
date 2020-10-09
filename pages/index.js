@@ -3,6 +3,7 @@ import Head from 'next/head'
 // import Custom Components
 //import Header from ./../containers/common/header'
 import MooHeader from './../containers/common/Mooheader'
+import Header from '../landing/header'
 
 // import Custom Components
 import SaleCountdown from './elements/count-down'
@@ -10,7 +11,7 @@ import CountDownSection from './layouts/sections/event/banner'
 
 
 import Team from './layouts/sections/app/member'
-import AboutSection from './layouts/sections/event/about'
+import AboutEvent from './layouts/sections/event/about'
 
 import ScheduleSection from './layouts/sections/event/schedule'
 
@@ -24,6 +25,7 @@ import TestimonialSection from './layouts/sections/enterprice-sass/testimonial'
 import BrandSection from './layouts/sections/enterprice-sass/brand'
 //import FooterSection from './layouts/sections/enterprice-sass/footer'
 import Footer2 from '../containers/common/footer'
+import NavMain from '../containers/common/NavMain'
 
 
 const EnterpriceSass = () => {
@@ -41,15 +43,15 @@ const EnterpriceSass = () => {
             <Head>
                 <title>MOO Finance</title>
             </Head>
-
+            {/* <NavMain /> */}
             <MooHeader className="saas2"/>
-
+            {/* <Header /> */}
             <BannerSection />
 
              {/* <SaleCountdown /> */}
             <FeatureSection />
             <CountDownSection />
-            <AboutSection />
+            <AboutEvent />
 
             <BusinessSection />
 
@@ -58,7 +60,7 @@ const EnterpriceSass = () => {
             <SliderSection />
 
             <Team />
-            <PricingSection />
+            {/* <PricingSection /> */}
 
             {/* <TestimonialSection /> */}
             <ScheduleSection />

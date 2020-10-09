@@ -59,22 +59,22 @@ module.exports = {
 
     MemberData : [
         {
-            img:'/assets/images/app_landing2/team/1.png',
+            img:'/assets/images/graphics/team/1.png',
             name:'Chief MOO',
             role:'MOO Founder & CEO'
         },
         {
-            img:'/assets/images/app_landing2/team/2.png',
+            img:'/assets/images/graphics/team/2.png',
             name:'MOO Master ',
             role:'MOO Co-Founder & Operations Lead'
         },
         {
-            img:'/assets/images/app_landing2/team/3.png',
+            img:'/assets/images/graphics/team/3.png',
             name:'Chief Mooketeer',
             role:'Head Marketer'
         },
         {
-            img:'/assets/images/app_landing2/team/4.png',
+            img:'/assets/images/graphics/team/4.png',
             name:'Moo Designer',
             role:'Senior UI/Xi Designer'
         },

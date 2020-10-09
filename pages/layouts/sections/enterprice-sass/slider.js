@@ -37,25 +37,29 @@ const SliderSection = () => (
                 <Col md="10" className="offset-md-1">
                     <div className="title">
                         <div className="main-title">
-                            <h2 className="text-white">screen shot</h2>
+                            <h2 className="text-white">Moo Tokenomics</h2>
                         </div>
                         <div className="sub-title">
-                            <p className="sub-title-para text-white">We believe we have created the most efficient SaaS landing
-                            page for
-                            your users.
-                            Landing page with features that will convince you to use it for your SaaS business.</p>
+                            <p className="sub-title-para text-white">Check out the Moo System.</p>
                         </div>
                     </div>
                 </Col>
             </Row>
         </Container>
-        <Container fluid={true}>
+        <Col md="10" className="offset-md-1">
+        <div className="announcer-img">
+                            <img alt="" className="img-fluid" src="/assets/images/graphics/Tokenomics.png" />
+                            
+                        </div>
+                </Col>
+                
+        {/* <Container fluid={true}>
             <div className="slider-container">
                 <Slider className="trainers-slider" id="trainers-slider" {...settings}>
                     <div className="item">
                         <img alt="" className="img-fluid" src="/assets/images/saas2/screen-shot/screen.png" />
                     </div>
-                    <div className="item">
+                    {/* <div className="item">
                         <img alt="" className="img-fluid" src="/assets/images/saas2/screen-shot/screen.png" />
                     </div>
                     <div className="item">
@@ -69,10 +73,10 @@ const SliderSection = () => (
                     </div>
                     <div className="item">
                         <img alt="" className="img-fluid" src="/assets/images/saas2/screen-shot/screen.png" />
-                    </div>
-                </Slider>
+                    </div> */}
+                {/* </Slider>
             </div>
-        </Container>
+        </Container> */} */}
     </section>
 )
 

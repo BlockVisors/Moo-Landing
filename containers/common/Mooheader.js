@@ -1,7 +1,8 @@
 import React, { useState } from 'react'
 import MooNav from './MooNav'
+import NavMain from './NavMain'
 import Link from 'next/link'
-import { Container, Row, Col, Button } from 'reactstrap'
+import { Container, Row, Col, Button, Nav, NavItem, NavLink, ButtonGroup} from 'reactstrap'
 
 const Header = props => {
     const [show, setShow] = useState(false)
@@ -45,9 +46,29 @@ const Header = props => {
                                 <a className="toggle-nav" onClick={clickSidebar} >
                                     <i aria-hidden="true" className="fa fa-bars text-white"></i>
                                 </a>
-                            </div>
-
-                            <MooNav />
+            
+                                 </div>   
+                            {/* <div>
+      <Nav>
+        <NavItem>
+          <NavLink href="#">Link</NavLink>
+        </NavItem>
+        <NavItem>
+          <NavLink href="#">Link</NavLink>
+        </NavItem>
+        <NavItem>
+          <NavLink href="#">Another Link</NavLink>
+        </NavItem>
+        <NavItem>
+          <NavLink href="#">bbutton Link</NavLink>
+        </NavItem>
+        <Button color="primary" size="lg" active>Primary link</Button>{' '}
+        <Button color="secondary" size="lg" active>Link</Button>
+      </Nav>
+      
+    </div> */}
+    <NavMain />
+                            {/* <MooNav /> */}
                             {/* <Button className="top-buttons">
                                 Moo App
                             </Button>

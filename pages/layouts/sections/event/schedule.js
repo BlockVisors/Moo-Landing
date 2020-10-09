@@ -9,12 +9,13 @@ const Schedule = () => (
                 <Col md="10" className="offset-md-1">
                     <div className="title title3">
                         <div className="main-title">
-                            <h2><span>our</span> schedule</h2>
+                            <h2><span>MOO</span> Timeline</h2>
                         </div>
                         <div className="sub-title">
-                            <p>Register now and reserve your seat for this <span>year's Unice,</span> the
-                                largest <span>web development</span> and online marketing <span>conference in UK,</span>
-                                covering everything you need to know in order to develop a successful online business.</p>
+                            <p>check this sectionfor an up to date <span>timeline/Roadmap</span> of
+                                MOO. From the <span>Public Sale</span>...to the launch of <span>staking</span>..
+                                to the creation of the <span>CryptoMoo</span> Collectibles and other Community-based incentives.It will
+                                all be here.</p>
                         </div>
                     </div>
                 </Col>
@@ -30,17 +31,15 @@ const Schedule = () => (
                                 <Row>
                                     <Col md="10">
                                         <div className="schedule-event">
-                                            <h5 className="names">Vicky Smith</h5>
+                                            <h5 className="names">MOO Creation</h5>
                                             <img alt="" className="img-fluid schedule-img" src="/assets/images/event/icon.png" />
-                                            <p className="schedule-description">Lorem Ipsum is simply dummy text of the printing
-                                                and typesetting industry. Lorem Ipsum has been the industry's standard dummy
-                                                text
-                                                ever since the 1500s, when an unknown printer took a galley of.</p>
+                                            <p className="schedule-description">The original conception of the MOOs. The foundation
+                                            of the MOO farm is built.</p>
                                         </div>
                                     </Col>
                                     <Col md="2">
                                         <div className="timing">
-                                            <h5 className="event-time">08:00</h5>
+                                            <h5 className="event-time">September 15, 2020</h5>
                                             <div className="border-container">
                                                 <div className="border-dashed"></div>
                                             </div>
