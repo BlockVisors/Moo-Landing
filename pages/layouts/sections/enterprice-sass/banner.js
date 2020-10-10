@@ -6,11 +6,11 @@ const Banner = () => {
       }
         return(
     <section className="saas2 header" id="home">
-        <div className="saas2-content">
+        <div className="saas2-content" >
             <div className="bg saas2-bg">
                 <Container>
                     <Row>
-                        <Col lg="6">
+                        <Col lg="6" id="top">
                             <div id="banner" className="center-text">
                                 <div>
                                     <div className="header-text">
@@ -28,7 +28,7 @@ const Banner = () => {
                                     <a id="banner-btn" className="btn btn-default primary-btn transparent">Public Sale</a>
                                     <a id="banner-btn" className="btn btn-default primary-btn transparent">LightPaper</a>
                                     <a id="banner-btn" className="btn btn-default primary-btn transparent">Staking</a>
-                                    <a id="banner-btn" className="btn btn-default primary-btn transparent">Moo MarketPlace</a>
+                                    <a id="banner-btn" className="btn btn-default primary-btn">Moo MarketPlace</a>
                                     </div>
                                 </div>
                             </div>

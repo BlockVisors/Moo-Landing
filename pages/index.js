@@ -58,7 +58,7 @@ const EnterpriceSass = () => {
 
             {/* <ServiceSection /> */}
 
-            <SliderSection />
+            {/* <SliderSection /> */}
 
             <Team />
             {/* <PricingSection /> */}

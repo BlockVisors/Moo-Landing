@@ -7,7 +7,7 @@ const About = () => (
                 <Col md="10" className="offset-md-1">
                     <div className="title title3 only-title">
                         <div className="main-title">
-                            <h2 className=" text-white">MOO Token (MOO) Details</h2>
+                            <h2 className=" text-white">MOO Tokenomics</h2>
                         </div>
                     </div>
                 </Col>

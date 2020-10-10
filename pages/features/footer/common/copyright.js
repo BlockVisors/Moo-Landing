@@ -18,10 +18,10 @@ const Copyright = () => (
                 </Col>
                 <Col sm="6">
                     <div>
-                        <h6 className="copyright-text text-white text-right">Copyright © 2020 Unice by <i
+                        <h6 className="copyright-text text-white text-right">Copyright © 2020<i
                             aria-hidden="true"
                             className="fa fa-heart mr-1"></i>
-                            pixelstrap</h6>
+                            Moo Finance</h6>
                     </div>
                 </Col>
             </Row>

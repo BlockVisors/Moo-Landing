@@ -81,29 +81,28 @@ const Faq = () => {
                         <div className="faq-block">
                             <div>
                                 <h3 className="frequent-text">Frequently Asked Questions</h3>
-                                <h6>Our users are impatient. They're probably distracted too. Keep it simple and beautiful, fun
-                                and
-                                functional. Clean aesthetics supported by a strong concept is what we stand for.</h6>
+                                <h6>Some Frequently asked questions about Moo Finance and Moo Token.
+                                </h6>
                                 <Accordion atomic={true}>
                                     <AccordionItem className="card-header bg-primary" title="What is MOO Finance?">
                                         <DummyContent1 className="active" />
                                     </AccordionItem>
-                                    <AccordionItem className="card-header bg-primary" title="Do I need to make a payment?">
+                                    <AccordionItem className="card-header bg-primary" title="How do I get MOO Token?">
                                         <DummyContent2 />
                                     </AccordionItem>
-                                    <AccordionItem className="card-header bg-primary" title="Do I need to make a payment?">
+                                    <AccordionItem className="card-header bg-primary" title="Can I Join the private sale?">
                                         <DummyContent3 />
                                     </AccordionItem>
-                                    <AccordionItem className="card-header bg-primary" title="Do I need to make a payment?">
+                                    <AccordionItem className="card-header bg-primary" title="When is the Pre-Sale?">
                                         <DummyContent4 />
                                     </AccordionItem>
-                                    <AccordionItem className="card-header bg-primary" title="Do I need to make a payment?">
+                                    <AccordionItem className="card-header bg-primary" title="Is this a scam?">
                                         <DummyContent5 />
                                     </AccordionItem>
-                                    <AccordionItem className="card-header bg-primary" title="Do I need to make a payment?">
+                                    <AccordionItem className="card-header bg-primary" title="How do i stake MOO?">
                                         <DummyContent6 />
                                     </AccordionItem>
-                                    <AccordionItem className="card-header bg-primary" title="Do I need to make a payment?">
+                                    <AccordionItem className="card-header bg-primary" title="What are CryptoMOO and how do i get them?">
                                         <DummyContent7 />
                                     </AccordionItem>
                                 </Accordion>
@@ -113,7 +112,10 @@ const Faq = () => {
                     </Col>
                     <Col md="4">
                         <div className="faq-img-block">
-                            <img alt="faq-person" className="img-fluid" src="/assets/images/saas1/faq-img.png" />
+                            <img 
+                            height="464"
+                            width="290"
+                            alt="faq-person" className="img-fluid" src="/assets/images/graphics/faq.png" />
                         </div>
                     </Col>
                 </Row>

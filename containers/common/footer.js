@@ -15,11 +15,11 @@ const Footer = () => (
                             <ul className="justify-content-center">
                                 <li><a className="copyright-text" href="#">Staking Contract</a></li>
                                 <li><a className="copyright-text" href="#">MOO Token</a></li>
-                                <li><a className="copyright-text" href="#">Github</a></li>
-                                <li><a className="copyright-text" href="#">Telegram</a></li>
-                                <li><a className="copyright-text" href="#">Twitter </a></li>
-                                <li><a className="copyright-text" href="#">Discord</a></li>
-                                <li><a className="copyright-text" href="#">Medium</a></li>
+                                <li><a className="copyright-text" href="https://github.com/MooFinance/">Github</a></li>
+                                <li><a className="copyright-text" href="https://t.me/moofinanceofficial">Telegram</a></li>
+                                <li><a className="copyright-text" href="https://twitter.com/FinanceMoo">Twitter </a></li>
+                                <li><a className="copyright-text" href="https://discord.com">Discord</a></li>
+                                <li><a className="copyright-text" href="https://medium.com/moo-finance">Medium</a></li>
                             </ul>
                         </div>
                     </Col>
@@ -33,13 +33,8 @@ const Footer = () => (
                                         </a>
                                     </li>
                                     <li>
-                                        <a className="copyright-text" href="#">
+                                        <a className="copyright-text" href="https://twitter.com/FinanceMoo">
                                             <i aria-hidden="true" className="fa fa-twitter"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a className="copyright-text" href="#">
-                                            <i aria-hidden="true" className="fa fa-google"></i>
                                         </a>
                                     </li>
                                     <li>
@@ -48,13 +43,13 @@ const Footer = () => (
                                         </a>
                                     </li>
                                     <li className="footer-social-list">
-                                    <a href="#"><i aria-hidden="true" className="fa fa-github"></i></a>
+                                    <a href="https://github.com/MooFinance/"><i aria-hidden="true" className="fa fa-github"></i></a>
                                 </li>
                                 <li className="footer-social-list">
-                                    <a href="#"><i aria-hidden="true" className="fa fa-medium"></i></a>
+                                    <a href="https://medium.com/moo-finance"><i aria-hidden="true" className="fa fa-medium"></i></a>
                                 </li>
                                 <li className="footer-social-list">
-                                <a href="#"><i class="fa fa-telegram" aria-hidden="true"></i></a>
+                                <a href="https://t.me/moofinanceofficial"><i class="fa fa-telegram" aria-hidden="true"></i></a>
                                 </li>
                                 </ul>
                             </div>
