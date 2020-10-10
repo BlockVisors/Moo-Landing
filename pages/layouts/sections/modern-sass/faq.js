@@ -106,7 +106,7 @@ const Faq = () => {
                                         <DummyContent7 />
                                     </AccordionItem>
                                 </Accordion>
-                                <h6 className="link">Still have a question? Reach out to us: <a>info@moofinance.com</a></h6>
+                                <h6 className="link">Still have a question? Reach out to us: <a>info@moofinance.org</a></h6>
                             </div>
                         </div>
                     </Col>

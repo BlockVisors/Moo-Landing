@@ -6,9 +6,9 @@ const Member = () => (
         <Container>
             <Row>
                 <Col md="10"  className="offset-md-1">
-                    <div className="title title2">
-                        <img alt="" className="img-fluid title-img" src="/assets/images/logo/MooIconColor.png" />
-                        <h6 className="font-primary borders main-text"><span> Team</span></h6>
+                    <div id="team-sec" className="title title2">
+                        <img alt="" className="img-fluid title-img" src="/assets/images/graphics/MooIconColor.png" />
+                        {/* <h6 className="font-primary borders main-text"><span> Team</span></h6> */}
                         <div className="sub-title">
                             <h2 className="title-text text-capitalize text-center">Meet The MOO team</h2>
                         </div>

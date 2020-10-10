@@ -47,9 +47,7 @@ export default class NavMain extends React.Component {
         <NavbarToggler onClick={this.toggle} />
         <Collapse isOpen={this.state.isOpen} navbar>
           <Nav className="ml-auto" navbar>
-            <NavItem>
-              <NavLink href="/components/">About</NavLink>
-            </NavItem>
+          
             <NavItem>
               <NavLink href="#faq">FAQ</NavLink>
             </NavItem>
@@ -62,11 +60,13 @@ export default class NavMain extends React.Component {
             <NavItem>
               <NavLink href="https://github.com/reactstrap/reactstrap">Moo Paper</NavLink>
             </NavItem>
-            <NavItem>
-              <NavLink href="https://github.com/reactstrap/reactstrap">Trade</NavLink>
-            </NavItem>
+          
             <NavItem>
               <NavLink href="https://github.com/reactstrap/reactstrap">Moo Farms</NavLink>
+            </NavItem>
+
+            <NavItem>
+              <NavLink href="https://github.com/reactstrap/reactstrap">Stake CryptoMoo</NavLink>
             </NavItem>
             <NavItem>
               <NavLink href="https://github.com/reactstrap/reactstrap">Moo Market</NavLink>

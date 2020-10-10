@@ -27,21 +27,13 @@ const Footer = () => (
                         <div className="text-center">
                             <div className="social-link link-horizontal">
                                 <ul className="justify-content-center">
-                                    <li>
-                                        <a className="copyright-text" href="#">
-                                            <i aria-hidden="true" className="fa fa-facebook"></i>
-                                        </a>
-                                    </li>
+                                    
                                     <li>
                                         <a className="copyright-text" href="https://twitter.com/FinanceMoo">
                                             <i aria-hidden="true" className="fa fa-twitter"></i>
                                         </a>
                                     </li>
-                                    <li>
-                                        <a className="copyright-text " href="#">
-                                            <i aria-hidden="true" className="fa fa-instagram"></i>
-                                        </a>
-                                    </li>
+                                    
                                     <li className="footer-social-list">
                                     <a href="https://github.com/MooFinance/"><i aria-hidden="true" className="fa fa-github"></i></a>
                                 </li>
@@ -71,7 +63,7 @@ const Footer = () => (
                     </Col>
                     <Col sm="6">
                         <div>
-                            <h6 className="copyright-text text-white text-right">Copyright © 2020 Unice by <i aria-hidden="true" className="fa fa-heart"></i> pixelstrap
+                            <h6 className="copyright-text text-white text-right">Copyright © 2020 Built With <i aria-hidden="true" className="fa fa-heart"></i> Moo Finance
                             </h6>
                         </div>
                     </Col>

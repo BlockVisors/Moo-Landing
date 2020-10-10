@@ -67,7 +67,7 @@ const About = () => (
                                 </strong>
                                 </p>
                             </div>
-                            <a className="btn btn-default " href="#">Buy Moo</a>
+                            <a className="btn btn-default" href="#">Buy Moo</a>
                         </div>
                     </div>
 
