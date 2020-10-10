@@ -51,10 +51,10 @@ export default class NavMain extends React.Component {
               <NavLink href="/components/">About</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="https://github.com/reactstrap/reactstrap">FAQ</NavLink>
+              <NavLink href="#faq">FAQ</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="https://github.com/reactstrap/reactstrap">MOO Token</NavLink>
+              <NavLink href="#sale">MOO Token</NavLink>
             </NavItem>
             <NavItem>
               <NavLink href="/components/">CryptoMoo</NavLink>
@@ -65,8 +65,16 @@ export default class NavMain extends React.Component {
             <NavItem>
               <NavLink href="https://github.com/reactstrap/reactstrap">Trade</NavLink>
             </NavItem>
-            <a className="btn btn-default " href="#">Stake</a>
-            <a className="btn btn-default " href="#">Marketeplace</a>
+            <NavItem>
+              <NavLink href="https://github.com/reactstrap/reactstrap">Moo Farms</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink href="https://github.com/reactstrap/reactstrap">Moo Market</NavLink>
+            </NavItem>
+            {/* <a className="btn btn-default" href="#">Stake</a>
+            <a className="btn btn-default" href="#">Marketeplace</a> */}
+
+
             {/* <Button outline color="primary">primary</Button>{' '}
             <Button outline color="secondary">secondary</Button>{' '} */}
             {/* <UncontrolledDropdown nav inNavbar>

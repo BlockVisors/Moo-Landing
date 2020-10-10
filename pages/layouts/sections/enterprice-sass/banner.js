@@ -6,7 +6,7 @@ const Banner = () => {
       }
         return(
     <section className="saas2 header" id="home">
-        <div className="saas2-content ">
+        <div className="saas2-content">
             <div className="bg saas2-bg">
                 <Container>
                     <Row>
@@ -33,8 +33,11 @@ const Banner = () => {
                                 </div>
                             </div>
                         </Col>
-                        <div className="center-text set-abs">
-                            <img alt="" className="img-fluid img-dextop" src="/assets/images/saas2/dextop2.png" />
+                        {/* <div className="center-text set-abs"> */}
+                        <div id="top">
+                            <img width="522"
+                                height="400"
+                            alt="" className="img-fluid img-dextop" src="/assets/images/graphics/6.png" />
                         </div>
                     </Row>
                 </Container>

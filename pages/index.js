@@ -4,6 +4,7 @@ import Head from 'next/head'
 //import Header from ./../containers/common/header'
 import MooHeader from './../containers/common/Mooheader'
 import Header from '../landing/header'
+import FAQ from './layouts/sections/modern-sass/faq'
 
 // import Custom Components
 import SaleCountdown from './elements/count-down'
@@ -55,7 +56,7 @@ const EnterpriceSass = () => {
 
             <BusinessSection />
 
-            <ServiceSection />
+            {/* <ServiceSection /> */}
 
             <SliderSection />
 
@@ -64,6 +65,7 @@ const EnterpriceSass = () => {
 
             {/* <TestimonialSection /> */}
             <ScheduleSection />
+            <FAQ />
             <BrandSection />
 
             {/* <FooterSection /> */}

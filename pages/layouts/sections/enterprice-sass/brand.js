@@ -1,6 +1,6 @@
 import React from 'react';
 import Slider from "react-slick";
-import { BrandData } from '../../../../database/layouts/enterprice/database';
+import { BrandData } from '../../../../database/layouts/enterprice/mooBrand';
 import { Container, Row, Col } from 'reactstrap'
 var settings = {
     dots: false,

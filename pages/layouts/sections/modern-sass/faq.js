@@ -43,6 +43,36 @@ const Faq = () => {
             </div>
         </div>
     );
+    const DummyContent5 = () => (
+        <div className="collapse show" id="collapseicon1" aria-labelledby="collapseicon1" data-parent="#accordionoc">
+            <div className="card-body">
+                No one cares about products. People care about ideas. Is a product an idea?
+                Noup. Is a brand? A good one is. No one cares about products. People care about
+                ideas. Is a product an idea?
+                Noup. Is a brand? A good one is.
+            </div>
+        </div>
+    );
+    const DummyContent6 = () => (
+        <div className="collapse show" id="collapseicon2" data-parent="#accordionoc">
+            <div className="card-body">
+                No one cares about products. People care about ideas. Is a product an idea?
+                Noup. Is a brand? A good one is. No one cares about products. People care about
+                ideas. Is a product an idea?
+                Noup. Is a brand? A good one is.
+            </div>
+        </div>
+    );
+    const DummyContent7 = () => (
+        <div className="collapse show" id="collapseicon3" data-parent="#accordionoc">
+            <div className="card-body">
+                No one cares about products. People care about ideas. Is a product an idea?
+                Noup. Is a brand? A good one is. No one cares about products. People care about
+                ideas. Is a product an idea?
+                Noup. Is a brand? A good one is.
+            </div>
+            </div>
+    );
     return (
         <section className="saas1 faq" id="faq">
             <Container>
@@ -55,7 +85,7 @@ const Faq = () => {
                                 and
                                 functional. Clean aesthetics supported by a strong concept is what we stand for.</h6>
                                 <Accordion atomic={true}>
-                                    <AccordionItem className="card-header bg-primary" title="Do I need to make a payment?">
+                                    <AccordionItem className="card-header bg-primary" title="What is MOO Finance?">
                                         <DummyContent1 className="active" />
                                     </AccordionItem>
                                     <AccordionItem className="card-header bg-primary" title="Do I need to make a payment?">
@@ -67,8 +97,17 @@ const Faq = () => {
                                     <AccordionItem className="card-header bg-primary" title="Do I need to make a payment?">
                                         <DummyContent4 />
                                     </AccordionItem>
+                                    <AccordionItem className="card-header bg-primary" title="Do I need to make a payment?">
+                                        <DummyContent5 />
+                                    </AccordionItem>
+                                    <AccordionItem className="card-header bg-primary" title="Do I need to make a payment?">
+                                        <DummyContent6 />
+                                    </AccordionItem>
+                                    <AccordionItem className="card-header bg-primary" title="Do I need to make a payment?">
+                                        <DummyContent7 />
+                                    </AccordionItem>
                                 </Accordion>
-                                <h6 className="link">Still have a question? Reach out to us: <a>demo@123.com</a></h6>
+                                <h6 className="link">Still have a question? Reach out to us: <a>info@moofinance.com</a></h6>
                             </div>
                         </div>
                     </Col>

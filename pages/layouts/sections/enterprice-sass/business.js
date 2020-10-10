@@ -46,11 +46,17 @@ const Business = () => (
                        
                     </div>
                 </Col>
+                <Col>
+                <div className="d-flex">
                 <div className="center-text side-img">
                     <Tilt perspective="20000" transitionSpeed="3000">
-                        <img alt="" className="img-fluid" src="/assets/images/saas2/we-offer/img.png" />
+                        <img width="522"
+                                height="400"
+                        alt="" className="img-fluid" src="/assets/images/graphics/site.png" />
                     </Tilt>
                 </div>
+                </div>
+                </Col>
             </Row>
         </Container>
     </section>
