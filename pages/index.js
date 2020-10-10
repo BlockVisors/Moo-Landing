@@ -66,7 +66,7 @@ const EnterpriceSass = () => {
             {/* <TestimonialSection /> */}
             <ScheduleSection />
             <FAQ />
-            <BrandSection />
+            {/* <BrandSection /> */}
 
             {/* <FooterSection /> */}
             <Footer2 />
