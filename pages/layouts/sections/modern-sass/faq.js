@@ -6,70 +6,52 @@ const Faq = () => {
     const DummyContent1 = () => (
         <div className="collapse show" id="collapseicon" aria-labelledby="collapseicon" data-parent="#accordionoc">
             <div className="card-body">
-                No one cares about products. People care about ideas. Is a product an idea?
-                Noup. Is a brand? A good one is. No one cares about products. People care about
-                ideas. Is a product an idea?
-                Noup. Is a brand? A good one is.
+                MOO Finance is a DeFi staking platform where you can stake your MOO Lp or sLP tokens for 
+                for more MOO token. In addition, you may use the rewards to stake tthat MOO for Crypto MOO NFTs tokens.
             </div>
         </div>
     );
     const DummyContent2 = () => (
         <div className="collapse show" id="collapseicon1" aria-labelledby="collapseicon1" data-parent="#accordionoc">
             <div className="card-body">
-                No one cares about products. People care about ideas. Is a product an idea?
-                Noup. Is a brand? A good one is. No one cares about products. People care about
-                ideas. Is a product an idea?
-                Noup. Is a brand? A good one is.
+               You may get MOO buy particpating in the Pre-Sale or by purchasing on Uniswap after listing.
             </div>
         </div>
     );
     const DummyContent3 = () => (
         <div className="collapse show" id="collapseicon2" data-parent="#accordionoc">
             <div className="card-body">
-                No one cares about products. People care about ideas. Is a product an idea?
-                Noup. Is a brand? A good one is. No one cares about products. People care about
-                ideas. Is a product an idea?
-                Noup. Is a brand? A good one is.
+                MOO will be sold at the price of 280 MOO = 1 ETH. After that it will sell on Uniswap at 180 MOO = 1 ETh. After that point..
+                the open market will determine it's price.
             </div>
         </div>
     );
     const DummyContent4 = () => (
         <div className="collapse show" id="collapseicon3" data-parent="#accordionoc">
             <div className="card-body">
-                No one cares about products. People care about ideas. Is a product an idea?
-                Noup. Is a brand? A good one is. No one cares about products. People care about
-                ideas. Is a product an idea?
-                Noup. Is a brand? A good one is.
+                The Pre-Sale will be held on October 13, 2020 1600 UTC time
             </div>
         </div>
     );
     const DummyContent5 = () => (
         <div className="collapse show" id="collapseicon1" aria-labelledby="collapseicon1" data-parent="#accordionoc">
             <div className="card-body">
-                No one cares about products. People care about ideas. Is a product an idea?
-                Noup. Is a brand? A good one is. No one cares about products. People care about
-                ideas. Is a product an idea?
-                Noup. Is a brand? A good one is.
+                No. we will be here. Grow the team and community as fast we can.
             </div>
         </div>
     );
     const DummyContent6 = () => (
         <div className="collapse show" id="collapseicon2" data-parent="#accordionoc">
             <div className="card-body">
-                No one cares about products. People care about ideas. Is a product an idea?
-                Noup. Is a brand? A good one is. No one cares about products. People care about
-                ideas. Is a product an idea?
-                Noup. Is a brand? A good one is.
+                By going to the stake portal at: stake.moofinance.org
             </div>
         </div>
     );
     const DummyContent7 = () => (
         <div className="collapse show" id="collapseicon3" data-parent="#accordionoc">
             <div className="card-body">
-                No one cares about products. People care about ideas. Is a product an idea?
-                Noup. Is a brand? A good one is. No one cares about products. People care about
-                ideas. Is a product an idea?
-                Noup. Is a brand? A good one is.
+                CryptoMoo are unique non-fungible token collectibles. You may stake your reward from your stake of MOO 
+                or LP liquidity tokens to mint a CryptoMoo collectible.
             </div>
             </div>
     );
@@ -90,7 +72,7 @@ const Faq = () => {
                                     <AccordionItem className="card-header bg-primary" title="How do I get MOO Token?">
                                         <DummyContent2 />
                                     </AccordionItem>
-                                    <AccordionItem className="card-header bg-primary" title="Can I Join the private sale?">
+                                    <AccordionItem className="card-header bg-primary" title="What is value of MOO?">
                                         <DummyContent3 />
                                     </AccordionItem>
                                     <AccordionItem className="card-header bg-primary" title="When is the Pre-Sale?">
