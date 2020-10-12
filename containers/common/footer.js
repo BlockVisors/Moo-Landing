@@ -7,7 +7,8 @@ const Footer = () => (
                 <Row>
                     <Col xs="12">
                         <div className="link link-horizontal  text-center mb-3">
-                            <img id="ftr-logo" alt="" className="img-fluid" src="/assets/images/logo/MooBlack.png" />
+                            <img height="75px" width="75px"
+                            alt="" className="img-fluid title-img" src="/assets/images/graphics/MooIconColor.png" />
                         </div>
                     </Col>
                     <Col xs="12">

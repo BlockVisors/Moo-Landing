@@ -126,7 +126,7 @@ const About = () => (
                         </strong></h5>
                         </div>
                  </div>
-                 <div className="title title3 only-title">
+                 {/* <div className="title title3 only-title">
                         <div className="format">
                         <div className="format-head-text">
                                 <h3 className="about-font-header text-white">MOO Staking Details:</h3>
@@ -148,7 +148,7 @@ const About = () => (
                                 <a className="btn btn-default " href="#">Get MOOPaper</a>
                                 </div>
                         </div>
-                    </div>
+                    </div> */}
                 </Col>
             </Row>
         </Container>

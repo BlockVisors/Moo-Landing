@@ -7,7 +7,7 @@ const Footer = () => (
                 <Col xs="6">
                     <div className="footer-left">
                         <div id="bottom-logo"className="footer-logo">
-                            <img src="assets/images/logo/MooColor.png" alt="footer-logo" className="img-fluid" />
+                            <img src="assets/images/graphics/MooGrayBottom.png" alt="footer-logo" className="img-fluid" />
                         </div>
                     </div>
                 </Col>
