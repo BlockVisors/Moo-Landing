@@ -55,7 +55,7 @@ export default class NavMain extends React.Component {
               <NavLink href="#sale">MOO Token</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/components/">CryptoMoo</NavLink>
+              <NavLink href="#cryptoMoo">CryptoMoo</NavLink>
             </NavItem>
             <NavItem>
               <NavLink href="https://github.com/reactstrap/reactstrap">Moo Paper</NavLink>

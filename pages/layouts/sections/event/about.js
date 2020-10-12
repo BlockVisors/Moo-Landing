@@ -44,13 +44,10 @@ const About = () => (
                                 <h3 className="about-font-header text-white">Welcome To Business Meeting 2020</h3>
                             </div> */}
                             <div className="format-sub-text">
-                                <p className="about-para"><strong>
-                                Pre-Sale Price: 1ETH = 280 MOO
-                                🔥 All unsold tokens burnt 🚀 
-                                Uniswap listing: 1 Hours after Sales 🚀 
-                                Liquidity: 100% liquidity locked guarantee by @uniswaptalk   
-                                    
-                                    </strong></p>
+                                <p className="about-para"><strong>Pre-Sale Price: 1ETH = 280 MOO</strong></p>
+                                <p className="about-para"><strong>🔥 All unsold tokens burnt 🚀</strong></p>
+                                <p className="about-para"><strong>Hardcap: 1000 ETH Min:.20 ETH Max: 5 ETH</strong></p>
+                                <p className="about-para"><strong>Sale Duration: 4 Days or Hardcap reached</strong></p>      
                             </div>
 
                             <div className="format-small-text">
@@ -63,7 +60,7 @@ const About = () => (
                                 <p className="about-para"><strong>
                                 Uniswap Listing Price: 1ETH = 180 MOO
                                 Uniswap listing: 1 Hours after Sales 🚀 
-                                Liquidity: 100% liquidity locked guarantee by @uniswaptalk
+                                Liquidity: 100% liquidity locked guaranteed 
                                 </strong>
                                 </p>
                             </div>

@@ -2,7 +2,7 @@ import React from 'react';
 import Tilt from 'react-parallax-tilt';
 import {Container,Row,Col, Button} from 'reactstrap'
 const Business = () => (
-    <section className="saas2 bg-gradient quick-sol">
+    <section id="cryptoMoo" className="saas2 bg-gradient quick-sol">
         <Container className="set-center-div">
             <Row>
                 <Col lg="6">
@@ -15,8 +15,9 @@ const Business = () => (
                                 <i aria-hidden="true" className="fa fa-check-circle"></i>
                                 <div>
                                     <h2 className="offer-main-text text-white">Unique Collectibles</h2>
-                                    <p className="offer-sub-text text-white">You can stake your meme tokens and farm reward points. Points are earned every day based on how many meme you stake. When you earn enough points, you can redeem them for a collectable NFT Meme Card.
-                                     Collect them for yourself or sell them to others on Open Sea. It’s up to you.
+                                    <p className="offer-sub-text text-white">You can stake your MOO tokens and farm rewards in the form of more MOO. 
+                                    Those can be redeemed to Mint a CryptoMoo collectible when you earn enough.
+                                     Collect them for yourself or sell them to others on Open Sea. It’s up to you. More detail coming daily!
                                     </p>
                                     <div className="d-flex">
                                     <Button id="nft-button">
